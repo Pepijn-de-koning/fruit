@@ -1,0 +1,60 @@
+html {
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  color: lightgreen;
+  font-size: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin: 100px auto 0 auto;
+  padding: 30px 100px 30px 100px;
+  color: white;
+  font-size: 50px;
+  background-color: lightgreen;
+  text-align: center;
+  border-radius: 100px;
+  font-family: 'Pacifico', cursive;
+}
+
+button:hover {
+  background-color: white;
+  color: lightgreen;
+}
+
+main {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+  margin: auto auto;
+}
+
+.container {
+  margin:auto auto;
+  width:100%;
+}
+
+.grid{
+  display: grid;
+  width: 80%;
+  grid-template-columns: auto auto auto;
+  margin: 100px auto 0 auto;
+  grid-gap: 25px;
+}
+
+.grid-item {
+  margin: auto auto;
+  border: 4px solid rgba(0, 0, 0, 0.8);
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 70pt;
+  border-color: lightgreen;
+}
